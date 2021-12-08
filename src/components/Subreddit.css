@@ -1,0 +1,18 @@
+.subreddit-section{
+    border-style:solid;
+    border-color: rgb(221, 221, 221);
+    border-width: 1px;
+    margin-left: 3em;
+    margin-top: 2em;
+    width: 20vw;
+}
+.subreddit-contents{
+    text-align: left;
+    margin: 1em;
+}
+.subreddit-contents ul{
+    list-style: none;
+    
+    padding: 0;
+    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+}

@@ -1,0 +1,40 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: aliceblue;
+    font-size: 1em;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-logo{
+    display: flex;
+}
+.nav-logo img{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.3em ;
+}
+
+.nav-search input{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 1.5em;
+}
+.nav-search input:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+@media only screen and (max-width: 666px) {
+    .nav-title{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 245px) {
+    .nav-search {
+      display: none;
+    }
+}
