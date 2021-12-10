@@ -1,0 +1,83 @@
+.article img {
+  width: 100%;
+}
+.userName {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 10px;
+  color: gray;
+}
+
+.article {
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  border: gray;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  margin: 30px 0px;
+  background-color: white;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: justify;
+  border-width: 1px 0px 0px;
+  border-color: rgb(241, 241, 241);
+  border-style: solid;
+  align-items: center;
+}
+.footer .title {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  width: 300px;
+}
+.footer .votes {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.footer .comments {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: gray;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 666px) {
+  .article {
+    width: 100%;
+  }
+}
+
+.right {
+  font-size: 2em;
+  color: gray;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.up {
+  margin-bottom: 10px;
+}
+
+.up:hover {
+  color: orangered;
+}
+
+.down:hover {
+  color: blue;
+}

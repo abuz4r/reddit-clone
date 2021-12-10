@@ -1,17 +1,17 @@
 import './App.css';
-import Nav from './components/Nav'
-import Card from './components/Card';
+import Nav from './components/Nav/Nav'
 import Subreddit from './components/Subreddit';
+import Post from './components/Post';
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Nav />
       <main>
-      <Card/>
-      <aside>
-      <Subreddit/>
-      </aside>
+        <Post />
+        <aside>
+          <Subreddit />
+        </aside>
       </main>
     </div>
   );

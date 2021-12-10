@@ -1,18 +1,25 @@
-.subreddit-section{
-    border-style:solid;
-    border-color: rgb(221, 221, 221);
-    border-width: 1px;
-    margin-left: 3em;
-    margin-top: 2em;
-    width: 20vw;
+.subreddit-section {
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 250px;
+  background-color: white;
 }
-.subreddit-contents{
-    text-align: left;
-    margin: 1em;
+.subreddit-contents {
+  text-align: left;
+  margin: 10px 20px;
+  font-weight: bold;
 }
-.subreddit-contents ul{
-    list-style: none;
-    
-    padding: 0;
-    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+.subreddit-contents ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subreddit-contents a:hover {
+  color: gray;
+}
+.subreddit-contents span {
+  font-weight: bold;
 }
