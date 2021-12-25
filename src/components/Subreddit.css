@@ -3,7 +3,7 @@
   border-color: gray;
   border-width: 1px;
   margin-left: 50px;
-  margin-top: 30px;
+  margin-top: 100px;
   width: 250px;
   background-color: white;
 }
@@ -22,4 +22,8 @@
 }
 .subreddit-contents span {
   font-weight: bold;
+}
+
+button {
+  margin-bottom: 10px;
 }

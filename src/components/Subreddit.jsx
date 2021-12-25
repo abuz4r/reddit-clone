@@ -20,7 +20,7 @@ export default function subreddit() {
         <ul>
           {subreddits.map((subreddit) => (
             <li>
-              <a href="#">r/{subreddit}</a>
+              <button>r/{subreddit}</button>
             </li>
           ))}
         </ul>

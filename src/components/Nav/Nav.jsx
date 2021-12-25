@@ -6,9 +6,8 @@ export default function nav() {
     <div className="nav">
       <div className="nav-logo">
         <img src={"./reddit-logo.png"} alt="logo" />
-        <span className="nav-title">redditgram</span>
+        <span className="nav-title">redditclone</span>
       </div>
-      
     </div>
   );
 }

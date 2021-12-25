@@ -2,10 +2,11 @@
   width: 100%;
 }
 .userName {
+  display: inline-block;
   font-size: 0.7em;
   font-weight: bold;
   margin-bottom: 5px;
-  padding: 10px;
+  margin: 10px;
   color: gray;
 }
 
@@ -51,6 +52,7 @@ a {
 }
 
 .footer .comments {
+  display: inline-block;
   font-size: 0.7em;
   font-weight: bold;
   color: gray;

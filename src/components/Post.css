@@ -1,0 +1,18 @@
+input {
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.container {
+  margin-top: 35px;
+}
+
+.search {
+  text-align: center;
+}
+
+.search span {
+  font-weight: bold;
+  margin-right: 2px;
+}
