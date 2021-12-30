@@ -1,11 +1,7 @@
 import React from "react";
 import "./Article.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp, faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 function article(props) {
-  const up = <FontAwesomeIcon icon={faArrowUp} />;
-  const down = <FontAwesomeIcon icon={faArrowDown} />;
   return (
     <div className="article">
       <a
@@ -24,15 +20,6 @@ function article(props) {
           >
             <div className="title">{props.article.title}</div>
           </a>
-          <div className="interact-section">
-            <btn className="comments">view comments</btn>
-          </div>
-        </div>
-        <div className="right">
-          <div className="arrows">
-            <div className="up">{up}</div>
-            <div className="down">{down}</div>
-          </div>
         </div>
       </div>
     </div>

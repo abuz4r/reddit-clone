@@ -1,7 +1,7 @@
 import './App.css';
-import Nav from './components/Nav/Nav'
-import Subreddit from './components/Subreddit';
-import Post from './components/Post';
+import Nav from './components/Nav/Nav.container';
+import Subreddit from './components/Subreddit.container';
+import Post from './components/Post.container';
 
 function App() {
   return (
@@ -18,3 +18,4 @@ function App() {
 }
 
 export default App;
+

@@ -2,10 +2,11 @@
   border-style: solid;
   border-color: gray;
   border-width: 1px;
-  margin-left: 50px;
+  margin-left: -210px;
   margin-top: 100px;
   width: 250px;
   background-color: white;
+  position: fixed;
 }
 .subreddit-contents {
   text-align: left;

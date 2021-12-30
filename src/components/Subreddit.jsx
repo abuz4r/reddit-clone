@@ -1,7 +1,8 @@
 import React from "react";
 import "./Subreddit.css";
 
-export default function subreddit() {
+export default function subreddit(props) {
+  const { updateSubReditt } = props;
   const subreddits = [
     "funny",
     "AskReddit",
@@ -18,9 +19,9 @@ export default function subreddit() {
       <div className="subreddit-contents">
         <span>subreddits</span>
         <ul>
-          {subreddits.map((subreddit) => (
-            <li>
-              <button>r/{subreddit}</button>
+          {subreddits.map((subreddit, index) => (
+            <li key={index}>
+              <button onClick={() => updateSubReditt(subreddit)}>r/{subreddit}</button>
             </li>
           ))}
         </ul>

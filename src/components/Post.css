@@ -6,13 +6,42 @@ input {
 
 .container {
   margin-top: 35px;
+  position: relative;
+  margin-right: 290px;
 }
 
-.search {
+@media only screen and (max-width: 900px) {
+  .container {
+    margin-right: 0px;
+  }
+}
+
+.error {
   text-align: center;
+  align-items: center;
+  color: red;
+  background-color: rgb(245, 182, 182);
+  padding: 10px;
+  margin-top: 130px;
 }
 
-.search span {
-  font-weight: bold;
-  margin-right: 2px;
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #3498db;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+  margin-top: 130px;
+  margin-right: 300px;
+  margin-left: 122px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

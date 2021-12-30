@@ -47,3 +47,12 @@ input .nav-search input:hover {
     display: none;
   }
 }
+
+.search {
+  text-align: center;
+}
+
+.search span {
+  font-weight: bold;
+  margin-right: 2px;
+}
